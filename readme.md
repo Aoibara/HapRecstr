@@ -1,6 +1,4 @@
-<style TYPE="text/css">
-code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
-</style>
+<style TYPE="text/css">code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}</style>
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
 tex2jax: {
