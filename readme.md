@@ -1,4 +1,4 @@
-<style TYPE="text/css">code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}</style>
+
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
 tex2jax: {
@@ -16,11 +16,10 @@ all[i].SourceElement().parentNode.className += ' has-jax';
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
----
-title: "HaploRecstr: Haplotype Reconstruction Using Hidden Markov Technique"
-author: "Chen Liang, Ziwei Zhu, Yongwen Zhuang"
-date: 2016-12-16
----
+# HaploRecstr: Haplotype Reconstruction Using Hidden Markov Technique"
+#### Chen Liang, Ziwei Zhu, Yongwen Zhuang
+#### 2016-12-16
+
 <a name="top"></a>
 **HaploRecstr** is a C++ haplotype reconstruction program. Method used is based on the algorithm introduced by Rastas et al.^[Rastas, P., Koivisto, M. et al. (2005). Algorithms in Bioinformatics: 5th International Workshop. Berlin, Heidelberg: Springer. 145-151] Genotype data from a sample population is used as input.  
 More specifically, the program uses a Hidden Markov Model (HMM) to construct the data. By default, the model is initialized by going through the data to select the major alleles and assigning parameter values, then EM algorithm is used to optimize the likelihood function, and then Viterbi is used to reconstruct the haplotype data.  
