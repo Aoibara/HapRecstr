@@ -16,7 +16,7 @@ all[i].SourceElement().parentNode.className += ' has-jax';
 <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
 
-# HaploRecstr: Haplotype Reconstruction Using Hidden Markov Technique"
+# HaploRecstr: Haplotype Reconstruction Using Hidden Markov Technique
 #### Chen Liang, Ziwei Zhu, Yongwen Zhuang
 #### 2016-12-16
 
